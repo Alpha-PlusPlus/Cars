@@ -214,3 +214,26 @@ section.change {
     box-shadow: .1rem .1rem .5rem #bbb;
     cursor: pointer;
 }
+
+/* Section 3 Video Gallery */
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #222;
+}
+
+.video {
+    width: 25%;
+    margin: 0 2rem;
+    border-radius: .5rem;
+    opacity: .8;
+    box-shadow: .3rem .3rem .5rem #111;
+    transition: all .5s;
+}
+
+.video:hover {
+    opacity: 1;
+    box-shadow: .5rem .5rem 1rem #111;
+}
